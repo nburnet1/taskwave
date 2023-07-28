@@ -1,0 +1,67 @@
+a{
+  color: inherit;
+  text-decoration: none;
+}
+html,body{
+  width:100%;
+  height:100%;
+  background-color: #23272f;
+  color: rgb(210,205,198);
+}
+#logout{
+  color: rgb(43,155,154);
+}
+#account{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icon{
+  padding-right: 5px;
+}
+
+a.wave-tab.nav-link.active{
+  background-color: rgb(43,155,154);
+  color: black;
+}
+
+a.wave-tab.nav-link{
+  color: rgb(210,205,198);
+}
+.wave-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.wave-edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.task-header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.wave-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#wave-filter-icon{
+    padding-left: 16px;
+}
+.normal-link{
+  color: rgb(43,155,154);
+}
+
+.home-img{
+
+}
+
+
+
