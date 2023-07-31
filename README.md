@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <h1>TaskWave</h1>
+  <p>Welcome to TaskWave! This is a brief README to help you get started with the project.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h2>Project Overview</h2>
+  <p>
+    TaskWave is a task management application designed to help you keep track of your tasks in a fluid, wave-like manner. It allows users to create, update, and delete tasks, set due dates, and manage task statuses.
+  </p>
 
-## Available Scripts
+  <img src="https://burnette.tech/img/wavecap.png"/>
 
-In the project directory, you can run:
+  <h2>Getting Started</h2>
+  <p>
+    Follow the steps below to set up and run TaskWave on your local machine:
+  </p>
+  <h4>Frontend</h4>
+  <ol>
+    <li>Clone the repository: <code>git clone https://github.com/nburnet1/taskwave</code></li>
+    <li>Navigate to the project folder: <code>cd taskwave/client</code></li>
+    <li>Install dependencies: <code>npm install</code></li>
+    <li>Start the development server: <code>npm start</code></li>
+  </ol>
 
-### `npm start`
+  <h4>Backend</h4>
+  <ol>
+    <li>Clone the repository: <code>git clone https://github.com/nburnet1/taskwave</code></li>
+    <li>Navigate to the project folder: <code>cd taskwave/server</code></li>
+    <li>Install dependencies: <code>npm install</code></li>
+    <li>Run the API: <code>node app.js</code></li>
+    <li>API is now listening on port: <code>4000</code></li>
+  </ol>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>Frontend: HTML, CSS, Typescript, React</li>
+    <li>Backend: Node.js, Express</li>
+    <li>Authentication: Firebase Authentication</li>
+    <li>Version Control: Git</li>
+  </ul>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <h2>Features</h2>
+  <ul>
+    <li>Task creation, update, and deletion</li>
+    <li>Setting due dates for tasks</li>
+    <li>Task status management (e.g., To Do, In Progress, Completed)</li>
+    <li>User authentication and authorization</li>
+  </ul>
 
-### `npm test`
+  <h2>Contributing</h2>
+  <p>
+    Contributions are welcome! If you find any bugs, have suggestions, or want to add new features, feel free to open an issue or submit a pull request.
+  </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  <h2>License</h2>
+  <p>
+    This project is licensed under the GNU General Public License (GPL) version 3 License - see the <a href="LICENSE">LICENSE</a> file for details.
+  </p>
+</body>
+</html>
