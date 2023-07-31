@@ -46,10 +46,20 @@ function Home() {
         </Row>
             <Row>
                 <Col>
-                    <Card color={"dark"} inverse fluid>
+                    <Card color={"dark"} inverse fluid={true}>
                         <CardHeader>
                             <h3>Newest Patch Notes 1.3</h3>
                         </CardHeader>
+                        <CardBody>
+                            <CardText>
+                                <ul>
+                                    <li>Added a new feature</li>
+                                    <li>Fixed a bug</li>
+                                    <li>Added a new feature</li>
+                                    <li>Fixed a bug</li>
+                                </ul>
+                            </CardText>
+                        </CardBody>
                     </Card>
                 </Col>
             </Row>
