@@ -9,7 +9,7 @@
     TaskWave is a task management application designed to help you keep track of your tasks in a fluid, wave-like manner. It allows users to create, update, and delete tasks, set due dates, and manage task statuses.
   </p>
 
-  <img src="https://burnette.tech/img/wavecap.png"/>
+  <img src="https://burnette.tech/wavecap.png"/>
 
   <h2>Getting Started</h2>
   <p>
